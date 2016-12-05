@@ -23,8 +23,8 @@ int main(int argc, const char * argv[]) {
     Complex   *complexResult;
     Complex   *c1 = [[Complex alloc]init];
     Complex   *c2 = [[Complex alloc]init];
-        [f1 set:1 over:2];
-        [f2 set:1 over:4];
+        [f1 set:2 over:1];
+        [f2 set:4 over:1];
         [c1 set:2 over:3];
         [c2 set:5 over:1];
         [f1 print];NSLog(@"+");[f2 print];
